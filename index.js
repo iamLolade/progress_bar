@@ -7,7 +7,9 @@ const render = () => {
 
     for(let i = 0; i < 6; i++) {
         bar += `
-            <li class="singleBar" style="background-color: ${colors[i]}" id=${i}>50%</li>
+            <div class="barTemplate">
+                <li class="singleBar" style="background-color: ${colors[i]}" id=${i}>50%</li>
+            </div>
         `
     }
     barContainer.innerHTML = bar;

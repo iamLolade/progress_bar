@@ -9,10 +9,14 @@
 body {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     padding: 5rem;
     font-family: Poppins;
     background: #FAFAFA;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
 }
 
 button {
@@ -38,8 +42,6 @@ button:hover {
 }
 
 footer {
-    text-align: center;
-    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -47,7 +49,6 @@ footer {
     padding: 10px;
     font-size: 1rem;
     letter-spacing: 2.2px;
-    margin-top: 100px;
 }
 
 ul {
@@ -56,10 +57,19 @@ ul {
 
 ul li {
     list-style: none;
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
-    height: 20px;
+    height: 25px;
     color: #333;
-    margin: 15px;
+    margin: 25px;
+    padding-right: 10px;
+    margin-left: 0;
     background-color: #008cba;
+    text-align: right;
+}
+
+.barTemplate {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    width: 80vw;
 }
