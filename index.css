@@ -10,11 +10,13 @@ body {
     padding: 5rem;
     font-family: Poppins;
     background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5rem;
 }
 
 main {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 
@@ -28,23 +30,20 @@ button {
     font-weight: 600;
     transition-duration: 0.1s;
     cursor: pointer;
-    float: right;
+    max-width: 100px;
     margin-right: 80px;
 }
 
 button:hover {
     background: transparent;
     color: black;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 2px;
     border: 2px solid #008cba;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
     bottom: 0;
     color: #333;
     padding: 10px;
