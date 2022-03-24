@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +11,30 @@ body {
     justify-content: center;
     margin: 0 auto;
     padding: 5rem;
+    font-family: Poppins;
 }
 
 button {
+    border: none;
+    border-radius: 7px;
     background-color: #008cba;
     color: white;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 600;
     transition-duration: 0.8s;
     cursor: pointer;
+
 }
+
+footer {
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
