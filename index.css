@@ -7,15 +7,14 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     padding: 5rem;
     font-family: Poppins;
     background: #FAFAFA;
-    height: 100vh;
 }
 
 main {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -27,9 +26,10 @@ button {
     padding: 15px 20px;
     font-size: 1rem;
     font-weight: 600;
-    transition-duration: 0.8s;
+    transition-duration: 0.1s;
     cursor: pointer;
-
+    float: right;
+    margin-right: 80px;
 }
 
 button:hover {
@@ -45,14 +45,16 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    bottom: 0;
     color: #333;
     padding: 10px;
+    text-align: center;
     font-size: 1rem;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
 }
 
 ul {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 ul li {
