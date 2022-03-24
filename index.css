@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
